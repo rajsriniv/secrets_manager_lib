@@ -4,6 +4,8 @@
 package org.example;
 
 import org.junit.Test;
+import org.secrets.Library;
+
 import static org.junit.Assert.*;
 
 public class LibraryTest {
