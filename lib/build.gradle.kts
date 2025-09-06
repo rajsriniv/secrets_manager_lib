@@ -17,6 +17,8 @@ repositories {
 
 dependencies {
     implementation("software.amazon.awssdk:secretsmanager:2.32.4")
+    implementation("com.microsoft.azure:azure-keyvault:1.2.6")
+    implementation("com.azure:azure-identity:1.16.3")
     implementation("com.fasterxml.jackson.core:jackson-core:2.19.2")
     implementation("com.fasterxml.jackson.core:jackson-databind:2.19.2")
     // Use JUnit test framework.
